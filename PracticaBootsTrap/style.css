@@ -1,0 +1,144 @@
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+header{
+   >div>nav{
+    background-color: #fece00;
+    >div{
+        a{
+            font-weight: bolder;
+            
+        }
+        >div:nth-child(3)>div>a{
+            font-weight:bold;
+        }
+    }
+   }
+}
+
+.boton{
+    background-color: black;
+    color: #fece00;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+    &:hover{
+        background-color: #fece00;
+        color: black;
+    }
+}
+
+.boton2{
+    background-color: #fece00;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+   
+    &:hover{
+        background-color: black;
+        color: #fece00;
+        border: 2px solid #fece00;
+    }
+}
+
+/* Clases para cambiar el color y el fondo del acordeon en la pagina de pantera negra */
+.acor{
+    background-color: #fece00;
+    color: black;
+    font-weight: bold;
+}
+.acor2{
+    background-color: black;
+    color: #fece00;
+    font-weight: bold;
+
+}
+/* Clase para poner borde en la pagina index.html */
+.bordesito{
+    border: 3px solid #fece00;
+    border-radius: 5px;
+}
+/* Clase para redondear y poner borde en las img de equipo.html */
+.bordeimg{
+    border-radius: 50%;
+    border: 3px solid #fece00;
+}
+/* Pagina de inicio */
+/* CSS seccion 1 */
+#sec1{
+    background-image: url("./img/grandes-felinos-majestuosos-mirando-belleza-naturaleza-generada-ia_24640-89109.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    h1,p{
+        color: whitesmoke;
+    }
+}
+
+#sec3{
+    margin: 5% 0;
+}
+
+/* Pagina de leon */
+/* Seccion l1 */
+#l1{
+    background-image: url("./img/Lions_550675_1920x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* Pagina de tigre */
+/* Seccion t1 */
+#t1{
+    background-image: url("./img/miradatigre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* Página pantera negra */
+/* Seccion pn1 */
+#pn1{
+    background-image: url("./img/la-pantera-en-realidad-es-un-jaguar-o-un-leopardo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* Pagina leopardo de las nieves */
+/* seccion ln1 */
+#ln1{
+    background-image: url("./img/snow-leopard-6aw10m3tewfnp2dz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: black !important;
+}
+
+/* Pagina equipo */
+/* Seccion e1 */
+#e1{
+    height: 100vh;
+    color: white;
+    background-image: url("./img/equipoportada.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Seccion e2 */
+#e2{
+    background-color: white;
+    color: black;
+}
